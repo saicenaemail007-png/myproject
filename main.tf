@@ -10,6 +10,8 @@ resource "aws_instance" "example" {
     user_data = file("install.sh")
 }
 
+
+
 resource "aws_security_group" "example_sg" {
   
   name = "example_sg"
